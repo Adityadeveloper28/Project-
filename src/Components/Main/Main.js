@@ -10,18 +10,18 @@ function Main() {
 
       <div className="container">
         <div className="text-center p-0 ">
-          <h1 className="p-0 m-auto fw-bolder intro">VNPS '24</h1>
+          <h1 className="p-0 m-auto fw-bolder intro">Oscillations'24</h1>
           <hr className="hr border-5  justify-item-center" />
         </div>
         <div className=" text-center">
           <h1 className="fw-bolder sub">
-            VCET's National Level Project Showcase{" "}
+            Technical Paper Presentation{" "}
           </h1>
-          <h1 className="fw-bolder sub">On 6th April 2024</h1>
+          <h1 className="fw-bolder sub">On 7th April 2024</h1>
           <hr className="hr border-5" />
         </div>
         <div className="sty text-center animated-text">
-          INVENT.... INNOVATE.... INSPIRE...
+          Showcase your innovate research work and win exciting prizes
         </div>
 
         <div className="text-center m-auto mt-5">

@@ -40,17 +40,19 @@ function Rule() {
           <div className="col justify-content-center d-flex mt-2">
             <div
               className="card text-white"
-              style={{ width: "25rem", backgroundColor: "#101318" }}
+              style={{ width: "30rem", backgroundColor: "#101318" }}
             >
               <img
                 src={png1}
                 className="card-img-top mx-auto "
                 alt="..."
-                style={{ width: "50%" }}
+                style={{ width: "35%" }}
               />
               <div className="card-body">
-                <h1 className="card-title fw-bolder text-center">Team Size</h1>
-                <p className="card-text text-center">
+                <h1 className="card-title fw-bolder text-center fs-3">
+                  Team Size
+                </h1>
+                <p className="card-text text-center fs-5">
                   A team can consist of Maximum 4 members.Bearing a valid
                   college ID mandatory.
                 </p>
@@ -61,16 +63,16 @@ function Rule() {
             {" "}
             <div
               className="card text-white"
-              style={{ width: "25rem", backgroundColor: "#101318" }}
+              style={{ width: "30rem", backgroundColor: "#101318" }}
             >
               <img
                 src={png2}
                 className="card-img-top mx-auto "
                 alt="..."
-                style={{ width: "50%" }}
+                style={{ width: "35%" }}
               />
               <div className="card-body">
-                <h1 className="card-title fw-bolder text-center">
+                <h1 className="card-title fw-bolder text-center fs-3">
                   Resgiration Fee
                 </h1>
                 <p className="card-text m-auto ">
@@ -94,16 +96,16 @@ function Rule() {
             {" "}
             <div
               className="card text-white"
-              style={{ width: "25rem", backgroundColor: "#101318" }}
+              style={{ width: "30rem", backgroundColor: "#101318" }}
             >
               <img
                 src={png3}
                 className="card-img-top mx-auto "
                 alt="..."
-                style={{ width: "50%" }}
+                style={{ width: "35%" }}
               />
               <div className="card-body ">
-                <h1 className="card-title fw-bolder text-center">
+                <h1 className="card-title fw-bolder text-center fs-3">
                   REGISTRATION
                 </h1>
                 <button className="btn btn-outline-light m-auto d-flex mt-5 fs-2 fw-bolder">
@@ -112,33 +114,132 @@ function Rule() {
               </div>
             </div>
           </div>
+          <div className="col justify-content-center d-flex mt-2">
+            {" "}
+            <div
+              className="card text-white"
+              style={{ width: "30rem", backgroundColor: "#101318" }}
+            >
+              <img
+                src={png3}
+                className="card-img-top mx-auto "
+                alt="..."
+                style={{ width: "35%" }}
+              />
+              <div className="card-body ">
+                <h1 className="card-title fw-bolder text-center fs-3">
+                  ABSTRACT SUBMISSION DEADLINE
+                </h1>
+                <p className="card-text text-center">
+                  The abstract of project should not exceed 750 words and is to
+                  be sent via the mail ids provided 5th March 2023
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="row justify-content-center d-flex mt-4">
+        <div className="row justify-content-center d-flex mt-4 bg-dark p-2 rounded-3">
           <img src={png4} style={{ width: "5rem" }} />
           <h1 className="text-center text-white p-3">
             Registration Guidelines
           </h1>
           <div className="row-sm p-1 m-auto">
-            <ul className="text-white">
-              <li>
-                The participants are expected to complete the registration
-                process for the event through the registration link after
-                getting a notification mail from VNPS committee. Registration
-                link is available in the brochure as well as rule book.
-              </li>
-              <li>
-                Registration fee for Internal(VCET Students) Major Project (BE
-                project) is ₹ 200/- and for Minor Project (SE,TE project) is ₹
-                150/- and for External(NON-VCET Students) Major Project (BE
-                project) is ₹ 200/- and for Minor Project (SE,TE project) is ₹
-                200/- which has to be paid through Google Pay or Paytm on the
-                given phone numbers or upi id.
-              </li>
-              <li>
-                Complete the registration procedure by updating project details
-                and payment details.
-              </li>
-            </ul>
+            <p>
+              <ol>
+                <li>
+                  An Abstract of maximum 750 words should be sent before 20th
+                  March'24 on the following email addresses with respect to your
+                  track:
+                  <br />
+                  <a href="mailto:track1@vcet.edu.in">Track 1</a> <br />
+                  <a href="mailto:track2@vcet.edu.in">Track 2</a> <br />
+                  <a href="mailto:track3@vcet.edu.in">Track 3</a> <br />
+                  <a href="mailto:track4@vcet.edu.in">Track 4</a> <br />
+                  <a href="mailto:track5@vcet.edu.in">Track 5</a>
+                </li>
+                <li>
+                  A sample abstract would look like{" "}
+                  <a
+                    href="IEEE_Template.doc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link"
+                  >
+                    this
+                  </a>
+                </li>
+                <li>
+                  The subject of the email should include;{" "}
+                  <b style={{ color: "rgb(204 148 202)" }}>
+                    college name and track number
+                  </b>
+                </li>
+                <li>
+                  These details should be also present in the email along with
+                  project title and abstract.
+                </li>
+                <li>
+                  Project will be shortlisted on the basis of the abstract and
+                  selected participants will be notified through the emails
+                  along with further instructions.
+                </li>
+                <li>
+                  The participants are expected to complete the registration
+                  process for the event through the registration link after
+                  getting a notification mail from the committee. Registration
+                  link is available in the brochure as well as the rule book.
+                </li>
+                <li>
+                  <b style={{ color: "rgb(204 148 202)" }}>Important Dates</b>
+                  <br />
+                  <b style={{ color: "rgb(204 148 202)" }}>
+                    20th March'24:
+                  </b>{" "}
+                  Abstract submission deadline
+                  <br />
+                  <b style={{ color: "rgb(204 148 202)" }}>
+                    23rd March'24:
+                  </b>{" "}
+                  Acceptance Notification
+                  <br />
+                  <b style={{ color: "rgb(204 148 202)" }}>
+                    24th March'24:
+                  </b>{" "}
+                  Full Paper Presentation
+                  <br />
+                  <b style={{ color: "rgb(204 148 202)" }}>
+                    28th March'24:
+                  </b>{" "}
+                  <br />
+                  <b style={{ color: "rgb(204 148 202)" }}>
+                    7th April'24:
+                  </b>{" "}
+                  Final presentation competition at VCET Campus, Vasai.{" "}
+                </li>
+                {/* Registration fee details can be added here */}
+                <li>
+                  As soon as you receive the confirmation mail, do the payment
+                  and save the transaction ID.
+                </li>
+                <li>
+                  Complete the registration procedure by updating project
+                  details and payment details.
+                </li>
+                <br />
+                <li>
+                  For more info kindly go through the rule book -
+                  <a
+                    className="link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="Rule Book For Oscillations.pdf"
+                  >
+                    Rulebook
+                  </a>
+                  <br />
+                </li>
+              </ol>
+            </p>
           </div>
         </div>
         <div className="row justify-content-center d-flex mt-4 gap-5">
@@ -461,7 +562,7 @@ function Rule() {
           </div>
         </div>
       </div>
-      <div className="container-fluid bg-primary">
+      <div className="container-fluid bg-dark">
         <div
           id="fade-in-text"
           className={`fade-in-text fw-bolder mt-2 text-center text-white prize ${
@@ -476,7 +577,7 @@ function Rule() {
             isVisible ? "visible" : ""
           } ${!isScrollingUp ? "scroll-down" : ""}`}
         >
-          ₹2,00,000
+          ₹80,000
         </div>
       </div>
     </div>

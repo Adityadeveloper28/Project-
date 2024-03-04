@@ -26,13 +26,13 @@ const PreLoader = () => {
         }}
       >
         <div>
-          <img src={png1} className="logo" />
+          <img src={png1} alt="" className="logo" />
         </div>
         <div className="vid">
           Vidyavardhini's College of Engineering and Technology
         </div>
         <div className="mt-2 present">presents</div>
-        <div className="vnps">VNPS</div>
+        <div className="vnps">OSCILLATIONS</div>
       </div>
     </div>
   );

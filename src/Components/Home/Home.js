@@ -12,7 +12,7 @@ import PreLoader from "../PreLoader/PreLoader.js";
 import ParticlesComponent from "../ParticlesComponent.js";
 function Home() {
   return (
-    <div className="container-fluid p-0" style={{backgroundColor:'#0b1924'}}>
+    <div className="container-fluid p-0" style={{ backgroundColor: "rgb(51 56 49)" }}>
       <ParticlesComponent />
       <div
         style={{
