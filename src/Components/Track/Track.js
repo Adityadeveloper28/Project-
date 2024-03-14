@@ -5,6 +5,7 @@ import gif1 from "./Firmware.gif";
 import gif3 from "./Real-time Sync.gif";
 import gif4 from "./House restyling.gif";
 import gif5 from "./people using robots.gif";
+import gif6 from "./Stamp collecting.gif";
 
 function Track() {
   return (
@@ -20,7 +21,7 @@ function Track() {
           <div className="col p-2 d-flex justify-content-center">
             <div
               className="card border-5 border-secondary track1"
-              style={{ width: "25rem" }}
+              style={{ width: "23rem" }}
             >
               <img
                 src={gif}
@@ -37,19 +38,14 @@ function Track() {
               </div>
               <ul className="list-group list-group-numbered rounded-2 p-2">
                 <li className="list-group-item track2">
-                  Thermal and Fluid Power Engg.
+                  Mechanical System Design and Development{" "}
                 </li>
                 <li className="list-group-item track2">
-                  Mechanical System Design and Development
+                  Renewable & Non Renewable Energy
                 </li>
-                <li className="list-group-item track2">Industry 4.0</li>
-                <li className="list-group-item track2">Renewable Energy</li>
+                <li className="list-group-item track2">Electric Vehicle</li>
                 <li className="list-group-item track2">
-                  {" "}
-                  Optimisation and Simulation
-                </li>
-                <li className="list-group-item track2">
-                  AI and ML application to Mechanical systems
+                  AI and ML application to Mechanical Systems
                 </li>
               </ul>
             </div>
@@ -57,7 +53,7 @@ function Track() {
           <div className="col p-2  d-flex justify-content-center">
             <div
               className="card border-5 border-secondary track1"
-              style={{ width: "25rem" }}
+              style={{ width: "23rem" }}
             >
               <img
                 src={gif1}
@@ -91,7 +87,7 @@ function Track() {
           <div className="col p-2  d-flex justify-content-center rounded-3">
             <div
               className="card border-5 border-secondary track1"
-              style={{ width: "25rem" }}
+              style={{ width: "23rem" }}
             >
               <img
                 src={gif5}
@@ -106,12 +102,15 @@ function Track() {
                 <h5 className="card-title fw-bolder">Track 3</h5>
               </div>
               <ul className="list-group list-group-numbered p-2">
+                <li className="list-group-item track2">Data Science</li>
                 <li className="list-group-item track2">
-                  Automation Using PLC, SCADA and DCS
+                  Artificial Intelligence{" "}
                 </li>
+                <li className="list-group-item track2">Machine Learning</li>
                 <li className="list-group-item track2">Robotics</li>
+                <li className="list-group-item track2">Deep Learning</li>
                 <li className="list-group-item track2">
-                  Biomedical Instrumentation
+                  ⁠Natural Language Processing
                 </li>
               </ul>
             </div>
@@ -119,7 +118,7 @@ function Track() {
           <div className="col p-2  d-flex justify-content-center ">
             <div
               className="card border-5 border-secondary track1 "
-              style={{ width: "25rem" }}
+              style={{ width: "23rem" }}
             >
               <img
                 src={gif3}
@@ -136,24 +135,24 @@ function Track() {
               </div>
               <ul className="list-group list-group-numbered p-2">
                 <li className="list-group-item track2">
-                  Cloud Computing and Big Data
+                  Cloud computing & Big Data Analytics{" "}
                 </li>
+                <li className="list-group-item track2">Web of Things</li>
                 <li className="list-group-item track2">
-                  Artifical Intelligence and Machine Learning
+                  Cyber security & Blockchain
                 </li>
-                <li className="list-group-item track2">Gaming</li>
                 <li className="list-group-item track2">Web Of Things</li>
                 <li className="list-group-item track2">
-                  Web Security and Networking
+                  Mobile & Web Application{" "}
                 </li>
-                <li className="list-group-item track2">Robotics</li>
+                <li className="list-group-item track2">Soft computing</li>
               </ul>
             </div>
           </div>
           <div className="col p-2  d-flex justify-content-center">
             <div
               className="card border-5 border-secondary track1"
-              style={{ width: "25rem" }}
+              style={{ width: "23rem" }}
             >
               <img
                 src={gif4}
@@ -181,6 +180,51 @@ function Track() {
                 </li>
                 <li className="list-group-item track2">
                   Environmental and Water Resources Engg.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col p-2  d-flex justify-content-center">
+            <div
+              className="card border-5 border-secondary track1"
+              style={{ width: "25rem" }}
+            >
+              <img
+                src={gif6}
+                alt="Your GIF"
+                className="rounded-3  mt-1 Imn"
+                style={{
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              />
+
+              <div className="card-header mt-2">
+                <h5 className="card-title fw-bolder">Track 6</h5>
+              </div>
+              <ul className="list-group list-group-numbered p-2">
+                <li className="list-group-item track2">
+                  {" "}
+                  Ancient Indian Knowledge and Implications on Indian Education
+                  System (NEP)
+                </li>
+                <li className="list-group-item track2">
+                  Ancient Indian Folkore
+                </li>
+                <li className="list-group-item track2">
+                  History of Indian Literature, Music, Films, Dance and Costumes
+                </li>
+                <li className="list-group-item track2">
+                  Indian Philosophy, Family System and Superstitions
+                </li>
+                <li className="list-group-item track2">
+                  Ancient Indian Architecture and Civil Engg.
+                </li>{" "}
+                <li className="list-group-item track2">
+                  Chemistry and Metallurgy in Ancient and Medieval History{" "}
+                </li>{" "}
+                <li className="list-group-item track2">
+                  Ancient Indian Medicine, Surgery,Asceticism and Yoga{" "}
                 </li>
               </ul>
             </div>

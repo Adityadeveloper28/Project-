@@ -10,7 +10,7 @@ function About() {
           VNPS 2024 is a National Level project showcase which is the biggest
           Technical Fest organized by Vidyavardhini's College of Engineering and
           Technology. VNPS is realized by the combined efforts of various
-          departments' student committees: IEEE, ISA, CSI, IETE, VMEA, ISHRAE
+          department's student committees: IEEE, ISA, CSI, IETE, VMEA, ISHRAE
           and IGBC. They work in sync to provide a platform to the students with
           different project ideas to come together and present their ideas and
           innovations. VNPS aims to inspire students to think, motivate and
