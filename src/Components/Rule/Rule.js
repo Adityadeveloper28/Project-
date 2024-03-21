@@ -79,7 +79,7 @@ function Rule() {
                   <ul style={{ fontSize:'13px'}}>
                   <li>
                       {" "}
-                      The rates are per group <code style={{color:'rgb(206 217 5)'}}>(For VCET Students Oscilation +
+                      The rates are per group <code style={{color:'rgb(206 217 5)', fontSize:'15px'}}>(For VCET Students Oscilation +
                       VNPS compulsory)</code>: ₹ 500/-
                     </li>
                     <li>

@@ -25,8 +25,8 @@ function Main() {
         </div>
 
         <div className="text-center m-auto mt-5">
-          <Link className="btn btn-light fs-3 sub rounded-pill" type="button">
-            Registeration
+          <Link className="btn btn-light fs-3 sub rounded-pill" type="button" to={"https://forms.gle/KKyhYHF8pGzL6ETTA"} target="_blank">
+            Register Now!!
           </Link>
         </div>
       </div>

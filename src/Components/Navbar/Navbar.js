@@ -20,7 +20,7 @@ function Navbar() {
     >
       <div className="container-fluid ">
         <Link to="/" className="navbar-brand fw-bolder">
-          VNPS
+          OSCILLATIONS
         </Link>
         <button
           className="navbar-toggler"
