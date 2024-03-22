@@ -72,10 +72,14 @@ function Track() {
                   Signal,Image, Speech & Video Processing
                 </li>
                 <li className="list-group-item track2">
-                  Emerging Wireless Communication Technologies and Sensor
-                  Networks
+                  Emerging Wireless Communication Technologies
                 </li>
                 <li className="list-group-item track2"> VLSI Application</li>
+                <li className="list-group-item track2">
+                  {" "}
+                  Automation using PLC,SCADA and DCS
+                </li>
+
                 <li className="list-group-item track2">
                   {" "}
                   Biomedical Instrumentation
@@ -130,7 +134,6 @@ function Track() {
                 <li className="list-group-item track2">
                   Cloud computing & Big Data Analytics{" "}
                 </li>
-                <li className="list-group-item track2">Web of Things</li>
                 <li className="list-group-item track2">
                   Cyber security & Blockchain
                 </li>
@@ -211,8 +214,8 @@ function Track() {
                 </li>
                 <li className="list-group-item track2">
                   {" "}
-                  Traditional Indian Practices of Conserving Water
-                  and Environment.
+                  Traditional Indian Practices of Conserving Water and
+                  Environment.
                 </li>
               </ul>
             </div>

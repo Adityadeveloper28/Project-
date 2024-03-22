@@ -20,7 +20,7 @@ function Navbar() {
     >
       <div className="container-fluid " style={{fontFamily:'Anta'}}>
         <Link to="/" className="navbar-brand fw-bolder">
-          Oscillation
+          Oscillations
         </Link>
         <button
           className="navbar-toggler"
