@@ -252,17 +252,17 @@ function Rule() {
                   <b style={{ color: "rgb(204 148 202)" }}>Important Dates</b>
                   <br />
                   <b style={{ color: "rgb(204 148 202)" }}>
-                    26th March'24:
+                    27th March'24:
                   </b>{" "}
                   Abstract submission deadline
                   <br />
                   <b style={{ color: "rgb(204 148 202)" }}>
-                    28rd March'24:
+                    29rd March'24:
                   </b>{" "}
                   Acceptance Notification
                   <br />
                   <b style={{ color: "rgb(204 148 202)" }}>
-                    30th March'24:
+                    31th March'24:
                   </b>{" "}
                   Full Paper Presentation
                   <br />
