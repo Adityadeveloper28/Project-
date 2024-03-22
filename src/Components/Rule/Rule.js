@@ -36,7 +36,7 @@ function Rule() {
         <p className="text-white text-center para mt-2">
           There are some rules you need to follow..!!!
         </p>
-        <div className="row justify-content-center d-flex mt-3">
+        <div className="row justify-content-center d-flex mt-3" style={{fontFamily:'Anta'}}>
           <div className="col justify-content-center d-flex mt-2">
             <div
               className="card text-white"
@@ -76,25 +76,15 @@ function Rule() {
                   Resgiration Fee
                 </h1>
                 <p className="card-text m-auto ">
-                  <ul style={{ fontSize:'13px'}}>
-                  <li>
-                      {" "}
-                      The rates are per group <code style={{color:'rgb(206 217 5)'}}>(For VCET Students Oscilation +
-                      VNPS compulsory)</code>: ₹ 500/-
-                    </li>
+                  <ul style={{ fontSize:'15px'}}>
+                 
+                  
                     <li>
                       {" "}
-                      The rates are per group <code style={{color:'rgb(206 217 5)'}}>(For VCET Students Oscilation +
-                      VNPS compulsory , also member of professional bodies)</code>: ₹ 400/-
-                    </li>
-                    <li>
-                      {" "}
-                      The rates are per group per Project <code style={{color:'rgb(206 217 5)'}}> (For NON-VCET
-                      Students)</code>: ₹ 200/-
+                      The rates are per group per Project: ₹ 200/-
                     </li><li>
                       {" "}
-                      The rates are per group per Project <code style={{color:'rgb(206 217 5)'}}> (For NON-VCET
-                      Students and also the member of professional bodies)</code>: ₹ 150/-
+                      The rates are per group per Project <code style={{color:'rgb(206 217 5)'}}> ( member of professional bodies)</code>: ₹ 150/-
                     </li>
                     <li>
                       TE/SE Minor Project: ₹ 150/- External (For NON-VCET
@@ -122,8 +112,10 @@ function Rule() {
                 <h1 className="card-title fw-bolder text-center fs-3">
                   REGISTRATION
                 </h1>
-                <button className="btn btn-outline-light m-auto d-flex mt-5 fs-2 fw-bolder">
+                <button className="btn btn-outline-warning m-auto d-flex mt-5 fs-2 fw-bolder" >
+                  <a href="https://forms.gle/KKyhYHF8pGzL6ETTA" style={{textDecoration:'none'}}>
                   Register Here
+                  </a>
                 </button>
               </div>
             </div>
@@ -152,7 +144,7 @@ function Rule() {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center d-flex mt-4 bg-dark p-2 rounded-3">
+        <div className="row justify-content-center d-flex mt-4 bg-dark p-2 rounded-3" style={{fontFamily:'Anta'}}>
           <img src={png4} style={{ width: "5rem" }} />
           <h1
             className="text-center text-white p-3"
@@ -165,24 +157,25 @@ function Rule() {
           <div className="row-sm p-1 m-auto">
             <p>
               <ol>
-                <li>
+                <li >
                   An Abstract of maximum 750 words should be sent before 20th
                   March'24 on the following email addresses with respect to your
                   track:
                   <br />
-                  <a href="mailto:track1@vcet.edu.in">Track 1</a> <br />
-                  <a href="mailto:track2@vcet.edu.in">Track 2</a> <br />
-                  <a href="mailto:track3@vcet.edu.in">Track 3</a> <br />
-                  <a href="mailto:track4@vcet.edu.in">Track 4</a> <br />
-                  <a href="mailto:track5@vcet.edu.in">Track 5</a>
+                  <a href="mailto:track1@vcet.edu.in" style={{textDecoration:'none'}}>Track 1</a> <br />
+                  <a href="mailto:track2@vcet.edu.in" style={{textDecoration:'none'}}>Track 2</a> <br />
+                  <a href="mailto:track3@vcet.edu.in"style={{textDecoration:'none'}}>Track 3</a> <br />
+                  <a href="mailto:track4@vcet.edu.in"style={{textDecoration:'none'}}>Track 4</a> <br />
+                  <a href="mailto:track5@vcet.edu.in"style={{textDecoration:'none'}}>Track 5</a>
                 </li>
                 <li>
                   A sample abstract would look like{" "}
                   <a
-                    href="IEEE_Template.doc"
+                    href="https://docs.google.com/document/d/1lbLyTVEGZyAo7-V1M1Bh0me6vvb-ulcz/edit"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="link"
+                    className="link link-warning"
+                    style={{textDecoration:'none'}}
                   >
                     this
                   </a>
@@ -212,26 +205,23 @@ function Rule() {
                   <b style={{ color: "rgb(204 148 202)" }}>Important Dates</b>
                   <br />
                   <b style={{ color: "rgb(204 148 202)" }}>
-                    20th March'24:
+                    26th March'24:
                   </b>{" "}
                   Abstract submission deadline
                   <br />
                   <b style={{ color: "rgb(204 148 202)" }}>
-                    23rd March'24:
+                    28rd March'24:
                   </b>{" "}
                   Acceptance Notification
                   <br />
                   <b style={{ color: "rgb(204 148 202)" }}>
-                    24th March'24:
+                    23th March'24:
                   </b>{" "}
                   Full Paper Presentation
+
                   <br />
                   <b style={{ color: "rgb(204 148 202)" }}>
-                    28th March'24:
-                  </b>{" "}
-                  <br />
-                  <b style={{ color: "rgb(204 148 202)" }}>
-                    7th April'24:
+                    5th April'24:
                   </b>{" "}
                   Final presentation competition at VCET Campus, Vasai.{" "}
                 </li>
@@ -248,10 +238,11 @@ function Rule() {
                 <li>
                   For more info kindly go through the rule book -
                   <a
-                    className="link"
+                    className="link "
                     target="_blank"
                     rel="noopener noreferrer"
                     href="Rule Book For Oscillations.pdf"
+                    style={{textDecoration:'none'}}
                   >
                     Rulebook
                   </a>
@@ -274,73 +265,85 @@ function Rule() {
                 Payment details
               </h3>
             </div>
-            <div className="row  payment">
+            <div className="row  payment"style={{fontFamily:'Anta'}}>
               <ul>
-                <li>Payment should be done by 04th April 2023 itself.</li>
+                <li>Payment should be done by 4th April 2024 itself.</li>
                 <li>
                   Track 1:
                   <p>
-                    Raj Sanghrajka -
+                    Abhigya Hazra -
                     <a
-                      href="tel:9653278209"
+                      href="tel:9604297830"
                       className="link-offset-2 link-underline link-underline-opacity-0 link-light"
                     >
-                      9653278209
+                      &nbsp;9604297830
                     </a>
                   </p>
                 </li>
                 <li>
                   Track 2:
                   <p>
-                    Nilesh Jangid -
+                    Yash Biranje -
                     <a
-                      href="tel:8454913316"
+                      href="tel:9763999221"
                       className="link-offset-2 link-underline link-underline-opacity-0 link-light"
                     >
-                      8454913316{" "}
+                      &nbsp;9763999221
                     </a>
                   </p>
                 </li>
                 <li>
                   Track 3:
                   <p>
-                    Abhinav Vishwakarma -
+                    Shubham Shah -
                     <a
-                      href="tel:8237177660"
+                      href="tel:9226797391"
                       className="link-offset-2 link-underline link-underline-opacity-0 link-light"
                     >
-                      8237177660
+                      &nbsp;9226797391
                     </a>
                   </p>
                 </li>
                 <li>
                   Track 4:
                   <p>
-                    Harsh Sawant -
+                    Ayush Churi -
                     <a
-                      href="tel: 7798963544"
+                      href="tel:8421419425"
                       className="link-offset-2 link-underline link-underline-opacity-0 link-light"
                     >
-                      7798963544
+                      &nbsp;8421419425
                     </a>
                   </p>
                 </li>
                 <li>
                   Track 5:
                   <p>
-                    Hardik Vora -
+                    Aditya Kute -
                     <a
-                      href="tel:8600578184 "
+                      href="tel:9769738332"
                       className="link-offset-2 link-underline link-underline-opacity-0 link-light"
                     >
-                      8600578184{" "}
+                      &nbsp;9769738332
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  Track 6:
+                  <p>
+                  Ninad Palkar -
+                    <a
+                      href="tel:9769997743"
+                      className="link-offset-2 link-underline link-underline-opacity-0 link-light"
+                    >
+                      &nbsp;9769997743
                     </a>
                   </p>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-lg text-white">
+          <div className="col-lg text-white"style={{fontFamily:'Anta'}}>
             <div className="row">
               <img src={png6} style={{ width: "5rem" }} className="m-auto" />
               <h3
@@ -377,26 +380,26 @@ function Rule() {
                   >
                     <div className="accordion-body">
                       <div className="row">
-                        <dt class="col-sm-4 text-center">Aditya Hendre:</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dt class="col-sm-4 text-center">Tisha Paul:</dt>
+                        <dd class="col-sm text-center ">
                           <a
-                            href="tel: +91 996919962"
+                            href="tel: +91 8999184127"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 996919962
+                            +91 8999184127
                           </a>
                         </dd>
                       </div>
                       <div className="row">
-                        <dt class="col-sm-4 text-center">Chintan Patel:</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dt class="col-sm-4 text-center">Omkar Malusare: </dt>
+                        <dd class="col-sm text-center ">
                           <a
-                            href="tel:  +91 9112355745"
+                            href="tel:  +91 8605590713"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 9112355745
+                            +91 8605590713
                           </a>
                         </dd>
                       </div>
@@ -423,26 +426,26 @@ function Rule() {
                   >
                     <div className="accordion-body">
                       <div className="row">
-                        <dt class="col-sm-4 text-center">Shikhar Mehta:</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dt class="col-sm-4 text-center">Rashmi Mote:</dt>
+                        <dd class="col-sm text-center ">
                           <a
-                            href="tel: +91 8080080780"
+                            href="tel: +91 8169734612"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 8080080780
+                            +91 8169734612
                           </a>
                         </dd>
                       </div>
                       <div className="row">
-                        <dt class="col-sm-4 text-center">Nikhil Kargatia:</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dt class="col-sm-4 text-center">Omkar Bhikle:</dt>
+                        <dd class="col-sm text-center ">
                           <a
-                            href="tel:   +91 7875856630"
+                            href="tel:   +91 8879135446"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 7875856630
+                            +91 8879135446
                           </a>
                         </dd>
                       </div>
@@ -469,27 +472,27 @@ function Rule() {
                   >
                     <div className="accordion-body">
                       <div className="row">
-                        <dt class="col-sm-5 text-center"> Varun Tatkare :</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dt class="col-sm-5 text-center">Reena Vaidya :</dt>
+                        <dd class="col-sm text-center ">
                           <a
-                            href="tel: +91 8928008848"
+                            href="tel: +91 7506759126"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 8928008848
+                            +91 7506759126
                           </a>
                         </dd>
                       </div>
                       <div className="row">
-                        <dt class="col-sm-5 text-center"> Siddhant Lokare:</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dt class="col-sm-5 text-center">Pia Purohit :</dt>
+                        <dd class="col-sm text-center ">
                           <a
-                            href="tel: +91 9594370381
+                            href="tel: +91 7620411027
                           "
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 9594370381
+                            +91 7620411027
                           </a>
                         </dd>
                       </div>
@@ -517,26 +520,26 @@ function Rule() {
                   >
                     <div className="accordion-body">
                       <div className="row">
-                        <dt class="col-sm-4 text-center"> Aditi Sawant -</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dt class="col-sm-4 text-center">Aditya Lawate:</dt>
+                        <dd class="col-sm text-center ">
                           <a
-                            href="tel:  +91  9623265606"
+                            href="tel:  +91 9860678418"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 9623265606
+                            +91 9860678418
                           </a>
                         </dd>
                       </div>
                       <div className="row">
-                        <dt class="col-sm-4 text-center">Vedant Golap:</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dt class="col-sm-4 text-center">Kartik Poojary:</dt>
+                        <dd class="col-sm text-center ">
                           <a
-                            href="tel:  +91 +91 9623265606"
+                            href="tel:+91 7507355838"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 9623265606
+                            +91 7507355838
                           </a>
                         </dd>
                       </div>
@@ -565,25 +568,69 @@ function Rule() {
                     <div className="accordion-body">
                       <div className="row">
                         <dt class="col-sm-5 text-center">Deeksha Shetty: </dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dd class="col-sm text-center ">
                           <a
-                            href="tel:  +91 80974 70510"
+                            href="tel:  +91 8097470510"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
-                            {" "}
-                            +91 80974 70510
+                            +91 8097470510
                           </a>
                         </dd>
                       </div>
                       <div className="row">
-                        <dt class="col-sm-5 text-center">Gaurang Thakur :</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dt class="col-sm-5 text-center">Amey Mahajan:</dt>
+                        <dd class="col-sm text-center ">
                           <a
-                            href="tel:   +91 88052 73185"
+                            href="tel:   +91 8657557690"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 88052 73185{" "}
+                            +91 8657557690
+                          </a>
+                        </dd>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item bg-dark-subtle">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed bg-dark-subtle"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSix"
+                    >
+                      Track 6{" "}
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseSix"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      <div className="row">
+                        <dt class="col-sm-5 text-center">Lakshya : </dt>
+                        <dd class="col-sm text-center ">
+                          <a
+                            href="tel:  +91 7738786485"
+                            className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
+                          >
+                            +91 7738786485
+                          </a>
+                        </dd>
+                      </div>
+                      <div className="row">
+                        <dt class="col-sm-5 text-center">Sejal Mukane:</dt>
+                        <dd class="col-sm text-center ">
+                          <a
+                            href="tel:   +91 8857086720"
+                            className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
+                          >
+                            {" "}
+                            +91 8857086720
                           </a>
                         </dd>
                       </div>

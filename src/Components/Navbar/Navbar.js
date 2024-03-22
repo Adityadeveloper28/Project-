@@ -18,9 +18,9 @@ function Navbar() {
       className="navbar  navbar-expand-lg navbar-dark border-bottom sticky-top  p-1 "
       id="main"
     >
-      <div className="container-fluid ">
+      <div className="container-fluid " style={{fontFamily:'Anta'}}>
         <Link to="/" className="navbar-brand fw-bolder">
-          VNPS
+          Oscillation
         </Link>
         <button
           className="navbar-toggler"

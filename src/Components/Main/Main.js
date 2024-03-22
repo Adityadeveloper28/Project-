@@ -17,7 +17,7 @@ function Main() {
           <h1 className="fw-bolder sub">
             Technical Paper Presentation{" "}
           </h1>
-          <h1 className="fw-bolder sub">On 7th April 2024</h1>
+          <h1 className="fw-bolder sub">On 5th April 2024</h1>
           <hr className="hr border-5" />
         </div>
         <div className="sty text-center animated-text">
@@ -25,7 +25,7 @@ function Main() {
         </div>
 
         <div className="text-center m-auto mt-5">
-          <Link className="btn btn-light fs-3 sub rounded-pill" type="button">
+          <Link className="btn btn-light fs-3 sub rounded-2" type="button">
             Registeration
           </Link>
         </div>

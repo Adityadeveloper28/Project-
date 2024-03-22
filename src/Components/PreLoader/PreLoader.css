@@ -2,7 +2,8 @@
 
 /* Common styles */
 .text {
-  font-family: "Franklin Gothic Medium";
+  font-family: 'Anta', sans-serif;
+
   color: white;
   text-stroke: 2px black;
   opacity: 0;
@@ -13,15 +14,15 @@
 /* Mobile view */
 @media (max-width: 768px) {
   .vid {
-    font-family: "fantasy";
+    font-family: 'Anta', sans-serif;
     font-size: 1.5rem;
   }
   .present {
-    font-family: "fantasy";
+    font-family: 'Anta', sans-serif;
     font-size: 1rem;
   }
   .vnps {
-    font-family: "fantasy";
+    font-family: 'Anta', sans-serif;
     font-size: 3rem;
   }
   .logo{
@@ -32,15 +33,15 @@
 /* Desktop view */
 @media (min-width: 769px) {
   .vid {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Anta', sans-serif;
     font-size: 3rem;
   }
   .present {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Anta', sans-serif;
     font-size: 3rem;
   }
   .vnps {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Anta', sans-serif;
     font-size: 3rem;
   }
   .logo{

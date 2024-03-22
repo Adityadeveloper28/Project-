@@ -1,28 +1,25 @@
 import React from "react";
 import "./track.css";
-import gif from "./Time.gif";
-import gif1 from "./Firmware.gif";
-import gif3 from "./Real-time Sync.gif";
-import gif4 from "./House restyling.gif";
-import gif5 from "./people using robots.gif";
-import gif6 from "./Stamp collecting.gif";
+import gif from "./Time machine-bro.png";
+import gif1 from "./Firmware-amico.png";
+import gif3 from "./Real-time Sync-cuate.png";
+import gif4 from "./House restyling-bro.png";
+import png1 from "./people using robots-amico.png";
+import png2 from "./Stamp collecting-bro.png";
 
 function Track() {
   return (
     <div className="container-fluid p-3 mt-5" id="track">
       <br />
       <div className="container">
-        <div className="fw-bolder text-center text-white track ">TRACK</div>
+        <div className="fw-bolder text-center text-white track ">TRACKS</div>
         <p className="text-white text-center para mt-2">
           The following tracks refers to the categories in which your project
           belong Entries are not restricted to these topics only.
         </p>
         <div className="row justify-content-md-center">
           <div className="col p-2 d-flex justify-content-center">
-            <div
-              className="card border-5 border-secondary track1"
-              style={{ width: "23rem" }}
-            >
+            <div className="card border-5 track1" style={{ width: "23rem" }}>
               <img
                 src={gif}
                 alt="Your GIF"
@@ -34,15 +31,16 @@ function Track() {
               />
 
               <div className="card-header mt-2">
-                <h5 className="card-title fw-bolder">Track 1</h5>
+                <h5 className="card-title fw-bolder trc">Track 1</h5>
               </div>
-              <ul className="list-group list-group-numbered rounded-2 p-2">
+              <ul className="list-group list-group-flush  list-group-numbered rounded-2 p-2">
                 <li className="list-group-item track2">
                   Mechanical System Design and Development{" "}
                 </li>
                 <li className="list-group-item track2">
                   Renewable & Non Renewable Energy
                 </li>
+                <li className="list-group-item track2">Industry 4.0</li>
                 <li className="list-group-item track2">Electric Vehicle</li>
                 <li className="list-group-item track2">
                   AI and ML application to Mechanical Systems
@@ -51,10 +49,7 @@ function Track() {
             </div>
           </div>
           <div className="col p-2  d-flex justify-content-center">
-            <div
-              className="card border-5 border-secondary track1"
-              style={{ width: "23rem" }}
-            >
+            <div className="card border-5  track1" style={{ width: "23rem" }}>
               <img
                 src={gif1}
                 alt="Your GIF"
@@ -66,9 +61,9 @@ function Track() {
               />
 
               <div className="card-header mt-2">
-                <h5 className="card-title fw-bolder">Track 2</h5>
+                <h5 className="card-title fw-bolder trc">Track 2</h5>
               </div>
-              <ul className="list-group list-group-numbered p-2">
+              <ul className="list-group list-group-flush  list-group-numbered p-2">
                 <li className="list-group-item track2">
                   Microcontroller and Embedded Systems
                 </li>
@@ -81,16 +76,17 @@ function Track() {
                   Networks
                 </li>
                 <li className="list-group-item track2"> VLSI Application</li>
+                <li className="list-group-item track2">
+                  {" "}
+                  Biomedical Instrumentation
+                </li>
               </ul>
             </div>
           </div>
           <div className="col p-2  d-flex justify-content-center rounded-3">
-            <div
-              className="card border-5 border-secondary track1"
-              style={{ width: "23rem" }}
-            >
+            <div className="card border-5 track1" style={{ width: "23rem" }}>
               <img
-                src={gif5}
+                src={png1}
                 alt="Your GIF"
                 style={{
                   marginLeft: "auto",
@@ -99,9 +95,9 @@ function Track() {
                 className="rounded-3  mt-1 Imn "
               />
               <div className="card-header mt-2">
-                <h5 className="card-title fw-bolder">Track 3</h5>
+                <h5 className="card-title fw-bolder trc">Track 3</h5>
               </div>
-              <ul className="list-group list-group-numbered p-2">
+              <ul className="list-group list-group-flush  list-group-numbered p-2">
                 <li className="list-group-item track2">Data Science</li>
                 <li className="list-group-item track2">
                   Artificial Intelligence{" "}
@@ -116,10 +112,7 @@ function Track() {
             </div>
           </div>
           <div className="col p-2  d-flex justify-content-center ">
-            <div
-              className="card border-5 border-secondary track1 "
-              style={{ width: "23rem" }}
-            >
+            <div className="card border-5  track1 " style={{ width: "23rem" }}>
               <img
                 src={gif3}
                 alt="Your GIF"
@@ -131,9 +124,9 @@ function Track() {
               />
 
               <div className="card-header mt-2">
-                <h5 className="card-title fw-bolder">Track 4</h5>
+                <h5 className="card-title fw-bolder trc">Track 4</h5>
               </div>
-              <ul className="list-group list-group-numbered p-2">
+              <ul className="list-group list-group-flush  list-group-numbered p-2">
                 <li className="list-group-item track2">
                   Cloud computing & Big Data Analytics{" "}
                 </li>
@@ -150,10 +143,7 @@ function Track() {
             </div>
           </div>
           <div className="col p-2  d-flex justify-content-center">
-            <div
-              className="card border-5 border-secondary track1"
-              style={{ width: "23rem" }}
-            >
+            <div className="card border-5  track1" style={{ width: "23rem" }}>
               <img
                 src={gif4}
                 alt="Your GIF"
@@ -165,9 +155,9 @@ function Track() {
               />
 
               <div className="card-header mt-2">
-                <h5 className="card-title fw-bolder">Track 5</h5>
+                <h5 className="card-title fw-bolder trc">Track 5</h5>
               </div>
-              <ul className="list-group list-group-numbered p-2">
+              <ul className="list-group list-group-flush  list-group-numbered p-2">
                 <li className="list-group-item track2">
                   {" "}
                   Concrete Technology and Structural Engg.
@@ -185,46 +175,44 @@ function Track() {
             </div>
           </div>
           <div className="col p-2  d-flex justify-content-center">
-            <div
-              className="card border-5 border-secondary track1"
-              style={{ width: "25rem" }}
-            >
+            <div className="card border-5  track1" style={{ width: "23rem" }}>
               <img
-                src={gif6}
+                src={png2}
                 alt="Your GIF"
-                className="rounded-3  mt-1 Imn"
                 style={{
                   marginLeft: "auto",
                   marginRight: "auto",
                 }}
+                className="rounded-3  mt-1 Imn"
               />
 
               <div className="card-header mt-2">
-                <h5 className="card-title fw-bolder">Track 6</h5>
+                <h5 className="card-title fw-bolder trc">Track 6</h5>
               </div>
-              <ul className="list-group list-group-numbered p-2">
+              <ul className="list-group list-group-flush  list-group-numbered p-2">
+                <li className="list-group-item track2">
+                  IKS based Approaches in Maths, and Physical Sciences.
+                </li>
+                <li className="list-group-item track2">
+                  Indian Perspectives on maintaining Physical and Psychological
+                  Health.
+                </li>
+                <li className="list-group-item track2">
+                  Ancient Indian Traditions of Architecture and Its Application
+                  to Modern Civil Engineering
+                </li>
+                <li className="list-group-item track2">
+                  Indian Traditions of Sustainable Agriculture and Food
+                  Preservation.
+                </li>
                 <li className="list-group-item track2">
                   {" "}
-                  Ancient Indian Knowledge and Implications on Indian Education
-                  System (NEP)
+                  The Promotion of IKS through the medium of Indian Languages.
                 </li>
                 <li className="list-group-item track2">
-                  Ancient Indian Folkore
-                </li>
-                <li className="list-group-item track2">
-                  History of Indian Literature, Music, Films, Dance and Costumes
-                </li>
-                <li className="list-group-item track2">
-                  Indian Philosophy, Family System and Superstitions
-                </li>
-                <li className="list-group-item track2">
-                  Ancient Indian Architecture and Civil Engg.
-                </li>{" "}
-                <li className="list-group-item track2">
-                  Chemistry and Metallurgy in Ancient and Medieval History{" "}
-                </li>{" "}
-                <li className="list-group-item track2">
-                  Ancient Indian Medicine, Surgery,Asceticism and Yoga{" "}
+                  {" "}
+                  Traditional Indian Practices of Conserving Water
+                  and Environment.
                 </li>
               </ul>
             </div>

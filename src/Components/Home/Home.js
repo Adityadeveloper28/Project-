@@ -11,8 +11,12 @@ import BackToTopButton from "../BackToTopButton.js";
 import PreLoader from "../PreLoader/PreLoader.js";
 import ParticlesComponent from "../ParticlesComponent.js";
 function Home() {
+ 
+  
+
   return (
-    <div className="container-fluid p-0" style={{ backgroundColor: "#99450B    " }}>
+<div className="container-fluid p-0" style={{ backgroundColor: "#8f550f", }}>
+
       <ParticlesComponent />
       <div
         style={{
