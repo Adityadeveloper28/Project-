@@ -147,7 +147,7 @@ function Rule() {
                 </h1>
                 <p className="card-text text-center">
                   The abstract of project should not exceed 750 words and is to
-                  be sent via the mail ids provided <code className="text-warning" style={{fontFamily:'Anta'}}>26th March 2023</code>
+                  be sent via the mail ids provided <code className="text-warning" style={{fontFamily:'Anta'}}>27th March 2023</code>
                 </p>
               </div>
             </div>
@@ -170,7 +170,7 @@ function Rule() {
             <p>
               <ol>
                 <li>
-                  An Abstract of maximum 750 words should be sent before 26th
+                  An Abstract of maximum 750 words should be sent before 27th
                   March'24 on the following email addresses with respect to your
                   track:
                   <br />
