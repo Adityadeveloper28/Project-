@@ -170,7 +170,7 @@ function Rule() {
             <p>
               <ol>
                 <li>
-                  An Abstract of maximum 750 words should be sent before 20th
+                  An Abstract of maximum 750 words should be sent before 26th
                   March'24 on the following email addresses with respect to your
                   track:
                   <br />
